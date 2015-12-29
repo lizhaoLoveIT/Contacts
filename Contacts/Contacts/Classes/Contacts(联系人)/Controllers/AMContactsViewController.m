@@ -33,6 +33,9 @@ static NSString *contactsFilePathName = @"contacts.data";
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
+    // 取消 tableViewCell 之间的分割线
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
 }
 
 /**
